@@ -1,0 +1,26 @@
+#include <stdio.h>
+
+int main()
+{
+   int a;
+   scanf("%d",&a);
+   if(a==0)
+   {
+       printf("0 minutes");
+   }
+   else if(a>0&&a<=2000){
+       printf("25 minutes");
+}
+else if (a>2000&&a<=4000)
+       printf("35 minutes");
+   else if (a>4000&&a<=7000)
+       printf("45minutes");
+   }
+   else
+   {
+       printf("OVERLOADED");
+   }
+
+    return 0;
+}
+
