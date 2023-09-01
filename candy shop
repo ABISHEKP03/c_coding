@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+
+int main()
+{
+    int a=10, k= 5;
+    int num;
+    scanf("%d",&num);
+    if(num>=1&&num<=10)
+    {
+        printf("Number of Candies Sold:%d\n",num);
+        printf("Number of Candies Available: %d",a-num);
+    }
+    else
+    {
+        printf("invaild\n");
+        printf("Number of canies lef:%d",a);
+    }
+
+    return 0;
+}
